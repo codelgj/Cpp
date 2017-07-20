@@ -1,0 +1,13 @@
+for(int m=0;m<n_case;++m){
+        cin>>num_ele;
+        for(int i=0;i<num_ele;++i){
+            int k;
+            cin>>k;
+            child_arr.push_back(k);
+        }
+        arr.push_back(child_arr);
+        //clear child_arr
+
+        child_arr=vector<int>(); //alternatively, vector<int>().swap(child_arr);
+
+    }
